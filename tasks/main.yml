@@ -1,0 +1,5 @@
+---
+- name: install wikimedia
+  import_tasks: install.yml
+  tags:
+    - install
